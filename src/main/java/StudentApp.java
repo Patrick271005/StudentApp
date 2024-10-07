@@ -15,7 +15,7 @@ public class StudentApp {
 
         //first Student
         Student firstStudent =new Student();
-        firstStudent.setName(studentName);
+        firstStudent.setName(studentName);//this one is fine
         firstStudent.setEmail(studentEmail);
         firstStudent.setCourse(studentCourse);
 
@@ -26,7 +26,7 @@ public class StudentApp {
 
         String studentName2= sc.nextLine();
         System.out.println("Please enter your email");
-        String studentEmail2= sc.nextLine();
+        String studentEmail2= sc.nextLine();        //change theese two 
         System.out.println("Please enter your course");
         String studentCourse2=sc.nextLine();
 
